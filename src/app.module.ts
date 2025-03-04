@@ -21,12 +21,12 @@ import { APP_GUARD } from '@nestjs/core';
     }),
     TypeOrmModule.forRoot({
         type: 'postgres',
-        host: "localhost",
+        host: "XXXXX",
         port:  5432,
-        password: "Oneclick1@",
-        username: "postgres",
+        password: "XXXXX",
+        username: "XXXXX",
         entities: [SignUp],
-        database: 'nest-auth',
+        database: 'XXXXX',
         synchronize: true,
       }),
       ThrottlerModule.forRoot([{
